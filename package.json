@@ -1,5 +1,5 @@
 {
-  "name": "signaui",
+  "name": "@thegejr/signaui",
   "version": "0.0.0",
   "description": "SignaUI is a React-based UI component toolkit designed for web and mobile applications",
   "author": "Malte Gejr <maltegejr.korup@gmail.com>",
@@ -16,6 +16,9 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/thegejr"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-node-resolve": "^13.3.0",
